@@ -120,3 +120,16 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "DoodleFont";
+  src: url("/fonts/DoodleFont.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "DoodleFont", sans-serif;
+  background-image: url("/background.png");
+  background-size: cover;
+}
